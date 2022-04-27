@@ -1,0 +1,4 @@
+teks = "nama saya adalah fulan"
+tulis_teks = open("catatan.txt", "w")
+tulis_teks.write(teks)
+tulis_teks.close()
